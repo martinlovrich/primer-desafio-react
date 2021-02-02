@@ -1,8 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import CartWidget from '../CartWidget';
+
 
 const NavbarComponent = () => {
+    <CartWidget/>
   return (
     <>
+    
     <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html">Inicio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"

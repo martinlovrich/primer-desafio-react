@@ -2,12 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavbarComponent from './components/navbar/';
+import ItemListContainer from './containers/ItemListContainer';
 
 const App = () => {
   return (
     <>
     <NavbarComponent />
-    Estos es lo de app
+    
+    <ItemListContainer greeting={"Listado de articulos"}/>
+
     </>
   );
 }
